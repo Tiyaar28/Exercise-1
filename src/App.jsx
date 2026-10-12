@@ -2,6 +2,8 @@
 //   return <h1>Hello world + Hi</h1>
 // }
 
+import Greetings from "./Salaan";
+
 // export default App;
 
 // function App() {
@@ -124,16 +126,80 @@
 // export default App;
 
 
-import Blog from "./Ex2"
+// import Blog from "./Ex2"
 
+// function App () {
+
+//   return (
+
+//     <>
+
+//     <Blog/>
+    
+//     </>
+//   )
+// }
+
+// export default App;
+
+// import Salaan from "./Salaan";
+
+// function App () {
+
+//   const currentUser = "Fatima"
+//   const role = "Admin"
+//   return (
+
+//     <>
+//     <Salaan 
+//     currentUser={currentUser}
+//      role={role}/>
+
+//      <Salaan 
+//      currentUser={"Kalid"}
+//      role={"Student"}/>
+
+//      <Salaan 
+//      currentUser={"Leyla"}
+//      role={"Supper Admin"}
+//      age={20}/>
+     
+
+
+     
+//     </>
+
+//   )
+
+
+
+// }
+
+// export default App;
+
+import UserCard from "./Exer3";
 function App () {
 
-  return (
+  const name = "Mohamed"
+  const email = "mohamed@gmail.com"
 
+  return (
     <>
 
-    <Blog/>
+    <UserCard
+    name={name}
+    email={email}/>
     
+    <UserCard
+    name={"Ahmed"}
+    email={"ahmed@gmail.com"}/>
+
+    <UserCard
+    name={"Muna"}
+    email={"muna@gmail.com"}/>
+    <UserCard
+    name={"Maria"}
+    email={"maria@gmail.com"}/>
     </>
   )
 }
